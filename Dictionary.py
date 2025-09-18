@@ -4,6 +4,7 @@ prices = {"pizza" : "$6.99",
             "sandwich": "$2.52"}
 
 print(prices.get("sandwich"))
+print(prices["sandwich"])
 
 prices.update({"sushi":"$8.99"})
 print(prices.get("sushi"))
