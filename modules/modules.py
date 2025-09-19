@@ -9,3 +9,5 @@ print(pi)
 import modulesExample
 
 print(modulesExample.square(modulesExample.pi))
+
+#print(help("modules")) prints all modules
