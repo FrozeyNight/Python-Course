@@ -18,6 +18,11 @@ print(test.isalpha())
 # Counts how many times a given char is in a string
 print(test.count("B"))
 
+# .join joins all elements of a list (if chars or strings) into one string. Adding .join to a string makes that string a separator between all of the elements of the array
+letters = ["a", "b", "c", "d", "e"]
+connectedLetters = " ".join(letters)
+print(connectedLetters)
+
 # Prints information about a given variable including all methods
 #print(help(str))
 
